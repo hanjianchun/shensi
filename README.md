@@ -1,16 +1,2 @@
-iOS 打包步骤：
-	1.xcode中
-		Product -> clean
-	2.Android studio中
-		flutter clean
-		flutter build iOS
-	3.xcode中
-		修改General Identity Build
-		product -> Archive
-		
-	4.Build Settings
-		Provisioning Profile   -> 如果是上架就选 profiles_production  预生产就选wang
-		team选择 公司
-		
-		
-		
+神思读卡器集成，flutter页面main.dart调用init方法初始化；
+ios/Runner/IDCardReadPlugin.m文件中handleMethodCall方法被调用，收到参数“init”
