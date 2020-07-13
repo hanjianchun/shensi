@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="id2ViewController">
+            <connections>
+                <outlet property="_imgView" destination="hND-EF-fg8" id="Fsl-hv-zGI"/>
+                <outlet property="_info" destination="DBh-zC-0ku" id="0Id-sf-evI"/>
+                <outlet property="_mz" destination="Be3-5G-C5E" id="PCp-ln-wys"/>
+                <outlet property="_nian" destination="Mnc-G3-ANn" id="9jc-JM-BKm"/>
+                <outlet property="_ri" destination="3wg-wA-ksz" id="xth-WZ-dQL"/>
+                <outlet property="_sfzh" destination="apd-1Q-xTm" id="Zui-6E-G2d"/>
+                <outlet property="_xb" destination="Sow-pf-z6T" id="5qw-HE-e6r"/>
+                <outlet property="_yue" destination="Tha-Hs-ETc" id="X7v-XX-n8p"/>
+                <outlet property="_yxqx" destination="puq-xn-xic" id="Pxy-y0-uEx"/>
+                <outlet property="_zz" destination="Y0F-ct-ChE" id="AMA-s3-H5K"/>
+                <outlet property="btnDk" destination="Z1Y-5l-xIm" id="LAI-xU-Mqe"/>
+                <outlet property="btnDklj" destination="fXT-pP-uu3" id="9TB-BI-ETw"/>
+                <outlet property="btnFh" destination="w6T-ER-fes" id="CMq-35-unD"/>
+                <outlet property="btnGxmy" destination="y4i-VV-Htr" id="gDw-Wc-CNo"/>
+                <outlet property="btnQsjs" destination="pmz-Hz-o6S" id="DDN-Uq-HwF"/>
+                <outlet property="csLabel" destination="8Ig-b5-kb1" id="rth-zO-tE0"/>
+                <outlet property="lblDeviceid" destination="2" id="uZi-nI-naa"/>
+                <outlet property="lblDeviceid2" destination="2" id="DfC-kw-fpG"/>
+                <outlet property="lblDeviceid3" destination="qen-bU-9Pg" id="FjJ-sv-RWG"/>
+                <outlet property="mz" destination="Be3-5G-C5E" id="EyO-nq-Q1e"/>
+                <outlet property="mzLabel" destination="EBc-WQ-bAF" id="OEk-fF-5sJ"/>
+                <outlet property="nian" destination="Mnc-G3-ANn" id="Pc9-Yi-Y2u"/>
+                <outlet property="nianLabel" destination="Nqs-WF-7Jt" id="6Xc-WC-3YN"/>
+                <outlet property="ri" destination="3wg-wA-ksz" id="DP5-i8-DPz"/>
+                <outlet property="riLabel" destination="2HU-Zk-PED" id="DNp-OU-EC4"/>
+                <outlet property="sfzh" destination="apd-1Q-xTm" id="tdU-EC-bBw"/>
+                <outlet property="sfzhLabel" destination="MDx-30-eu2" id="AdT-aK-XSi"/>
+                <outlet property="view" destination="2" id="3"/>
+                <outlet property="xb" destination="Sow-pf-z6T" id="LoE-bh-3w4"/>
+                <outlet property="xbLabel" destination="hZS-YN-Vz0" id="e2T-jX-i12"/>
+                <outlet property="xm" destination="OhP-2s-4X3" id="YTh-Dv-BjO"/>
+                <outlet property="xmLable" destination="hAX-IK-bO0" id="6Sf-OH-U8W"/>
+                <outlet property="yue" destination="Tha-Hs-ETc" id="VH1-iX-fKY"/>
+                <outlet property="yueLabel" destination="YJD-vY-HxN" id="fT9-lI-O8j"/>
+                <outlet property="yxqx" destination="puq-xn-xic" id="o69-Me-EKP"/>
+                <outlet property="zz" destination="Y0F-ct-ChE" id="2XG-hT-A8a"/>
+                <outlet property="zzLabel" destination="Lf7-11-OND" id="jnh-Hy-baC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="姓 名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAX-IK-bO0">
+                    <rect key="frame" x="0.0" y="71" width="42" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="0.082352943720000002" green="0.67450982329999998" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="性 别" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZS-YN-Vz0">
+                    <rect key="frame" x="1" y="111" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.082352943720000002" green="0.67450982329999998" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="出 生" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ig-b5-kb1">
+                    <rect key="frame" x="1" y="151" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.082352943720000002" green="0.67450982329999998" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="住 址" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lf7-11-OND">
+                    <rect key="frame" x="1" y="200" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.082352943720000002" green="0.67450982329999998" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="身份证号码" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDx-30-eu2">
+                    <rect key="frame" x="1" y="258" width="134" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.082352943720000002" green="0.67450982329999998" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OhP-2s-4X3">
+                    <rect key="frame" x="42" y="72" width="175" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="42" translatesAutoresizingMaskIntoConstraints="NO" id="Sow-pf-z6T">
+                    <rect key="frame" x="43" y="112" width="55" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="民 族" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBc-WQ-bAF">
+                    <rect key="frame" x="104" y="112" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.082352943720000002" green="0.67450982329999998" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Be3-5G-C5E">
+                    <rect key="frame" x="162" y="112" width="64" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mnc-G3-ANn">
+                    <rect key="frame" x="43" y="152" width="48" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="年" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nqs-WF-7Jt">
+                    <rect key="frame" x="93" y="152" width="26" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.082352943720000002" green="0.67450982329999998" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tha-Hs-ETc">
+                    <rect key="frame" x="116" y="150" width="34" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="月" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJD-vY-HxN">
+                    <rect key="frame" x="144" y="152" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.082352943720000002" green="0.67450982329999998" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wg-wA-ksz">
+                    <rect key="frame" x="168" y="151" width="41" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="日" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2HU-Zk-PED">
+                    <rect key="frame" x="194" y="152" width="32" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.082352943720000002" green="0.67450982329999998" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apd-1Q-xTm">
+                    <rect key="frame" x="91" y="258" width="274" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="发证机关" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h51-4E-E9S">
+                    <rect key="frame" x="4" y="289" width="119" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.082352943720000002" green="0.67450982329999998" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qen-bU-9Pg">
+                    <rect key="frame" x="91" y="288" width="249" height="35"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="有效期限" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3D9-Oh-adU">
+                    <rect key="frame" x="4" y="335" width="104" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.082352943720000002" green="0.67450982329999998" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puq-xn-xic">
+                    <rect key="frame" x="92" y="328" width="263" height="31"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4i-VV-Htr">
+                    <rect key="frame" x="13" y="26" width="95" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="扫描设备">
+                        <color key="titleShadowColor" red="0.91796170970000002" green="1" blue="0.90346201390000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnGxmyPress:" destination="-1" eventType="touchUpInside" id="Ay6-Gu-49H"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="613" translatesAutoresizingMaskIntoConstraints="NO" id="DBh-zC-0ku">
+                    <rect key="frame" x="6" y="422" width="289" height="53"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmz-Hz-o6S">
+                    <rect key="frame" x="12" y="34" width="95" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="建立连接">
+                        <color key="titleShadowColor" red="0.91796170970000002" green="1" blue="0.90346201390000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnQsjsPress:" destination="-1" eventType="touchUpInside" id="ShY-hg-zx6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXT-pP-uu3">
+                    <rect key="frame" x="33" y="389" width="105" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="取模块号">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnDkljPress:" destination="-1" eventType="touchUpInside" id="JKA-Fu-ru8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1Y-5l-xIm">
+                    <rect key="frame" x="208" y="389" width="79" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="读     卡">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnDkPress:" destination="-1" eventType="touchUpInside" id="S1o-5E-2IR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6T-ER-fes">
+                    <rect key="frame" x="12" y="-24" width="84" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="返     回">
+                        <color key="titleShadowColor" red="0.91796170970000002" green="1" blue="0.90346201390000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnFhPress:" destination="-1" eventType="touchUpInside" id="ky7-H9-46O"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                     " lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="242" translatesAutoresizingMaskIntoConstraints="NO" id="Y0F-ct-ChE">
+                    <rect key="frame" x="67" y="191" width="240" height="55"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hND-EF-fg8">
+                    <rect key="frame" x="210" y="57" width="109" height="138"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <point key="canvasLocation" x="256" y="153"/>
+        </view>
+    </objects>
+</document>
